@@ -4,3 +4,9 @@ Use `rm -rf output && ~/Documents/ParallelArchitecture/hadoop-install/bin/hadoop
 Mavin Commands:
 * `mvn compile`
 * `mvn package`
+
+
+Time it takes on Bebop (local) with all input files  
+* real	4m6.436s
+* user	7m23.512s
+* sys	0m10.179s
