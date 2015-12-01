@@ -1,0 +1,5 @@
+com/paulbutcher/WordCount$Map.class
+com/paulbutcher/WordCount$Reduce.class
+com/paulbutcher/WordCount.class
+com/paulbutcher/Words$WordIterator.class
+com/paulbutcher/Words.class
