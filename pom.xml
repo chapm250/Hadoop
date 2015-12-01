@@ -11,11 +11,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.paulbutcher</groupId>
-  <artifactId>wordcount</artifactId>
+  <artifactId>genecount</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
-  <name>Hadoop WordCount</name>
+  <name>Hadoop GeneCount</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -31,10 +31,11 @@ public class WordCount extends Configured implements Tool {
     public void map(Object key, Text value, Context context)
       throws IOException, InterruptedException {
 
+    	 
       String line = value.toString(); 
-      Iterable<String> words = new Words(line); 
-      for (String word: words)
-        context.write(new Text(word), one); 
+       	 for (int i = 0; i < line.length()-3; i++) {
+       		 context.write(new Text(line.substring(i, i+4)), one); 
+    	}
     }
   }
 
